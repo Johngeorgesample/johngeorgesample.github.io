@@ -18,7 +18,7 @@ function stabFrenzy(){
 }
 
 function buttonStab() {
-	alert("🔪");
+	console.log("🔪");
 }
 
 
