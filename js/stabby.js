@@ -21,8 +21,3 @@ function buttonStab() {
 	console.log("🔪");
 }
 
-function textStab() {
-	document.getElementById("textChange").innerHTML = "STAB";
-}
-
-
