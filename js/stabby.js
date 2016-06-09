@@ -22,7 +22,7 @@ function buttonStab() {
 }
 
 function textStab() {
-	document.getElementbyId("textChange").innerHTML = "STAB";
+	document.getElementById("textChange").innerHTML = "STAB";
 }
 
 
