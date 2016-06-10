@@ -68,3 +68,11 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
+.btn-git:hover,
+.btn-git:active,
+.btn-git:focus {
+    color: #999999 !important;
+    background-color: #fff;
+    border-color: #fff;
+}
