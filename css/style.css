@@ -30,13 +30,13 @@ body {
   color: #fff;
     background-color: #ab2328;
     border-color: #ab2328;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 
-.btn-success:hover,
-.btn-success:active,
-.btn-success:focus {
+.btn:hover,
+.btn:active,
+.btn:focus {
     color: #ffcb05;
     background-color: #007055;
     border-color: #007055;
