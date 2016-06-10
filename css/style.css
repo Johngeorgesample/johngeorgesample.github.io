@@ -44,8 +44,8 @@ body {
 
 .btn-git {
     color: #fff;
-    background-color: #bebebe;
-    border-color: #bebebe;
+    background-color: #999;
+    border-color: #999;
     font-size: 25px !important;
     display: inline-block;
     padding: 6px 12px;
@@ -72,6 +72,6 @@ body {
 .btn-git:active,
 .btn-git:focus {
     color: #fff;
-    background-color: #999;
-    border-color: #999;
+    background-color: #bebebe;
+    border-color: #bebebe;
 }
