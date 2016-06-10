@@ -25,3 +25,19 @@ body {
     align-items: center; 
     justify-content: center;
 }
+
+.btn {
+  color: #33393c;
+    background-color: #8A0707;
+    border-color: #8A0707;
+    font-size: 20px;
+}
+
+
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
+    color: #ffcb05;
+    background-color: #007055;
+    border-color: #007055;
+}
