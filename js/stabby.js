@@ -21,3 +21,8 @@ function buttonStab() {
 	console.log("🔪");
 }
 
+function changeText() {
+	var stabReplace = "STAB";
+	var id = document.getElementById("stabText");
+	id.innerHTML=stabReplace;
+}
