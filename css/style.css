@@ -18,10 +18,6 @@ body {
 	font-size: 40px;
 }
 
-.smallText {
-  font-size: 20px;
-}
-
 #container {
     height: 100%;
     display: flex;
@@ -76,7 +72,7 @@ body {
 .btn-git:hover,
 .btn-git:active,
 .btn-git:focus {
-    color: #999999 !important;
-    background-color: #fff;
-    border-color: #fff;
+    color: #ab2328 !important;
+    background-color: #999;
+    border-color: #999;
 }
