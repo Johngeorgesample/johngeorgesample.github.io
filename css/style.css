@@ -27,7 +27,7 @@ body {
 }
 
 .btn {
-  color: #fff;
+    color: #fff;
     background-color: #ab2328;
     border-color: #ab2328;
     font-size: 25px !important;
@@ -40,4 +40,12 @@ body {
     color: #ab2328 !important;
     background-color: #fff;
     border-color: #fff;
+}
+
+
+.btn-git {
+    color: #fff;
+    background-color: #bebebe;
+    border-color: #bebebe;
+    font-size: 25px !important;
 }
