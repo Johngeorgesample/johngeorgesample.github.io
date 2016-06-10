@@ -27,16 +27,16 @@ body {
 }
 
 .btn {
-  color: #33393c;
+  color: #fff;
     background-color: #8A0707;
     border-color: #8A0707;
     font-size: 20px;
 }
 
 
-.btn-success:hover,
-.btn-success:active,
-.btn-success:focus {
+.btn:hover,
+.btn:active,
+.btn:focus {
     color: #ffcb05;
     background-color: #007055;
     border-color: #007055;
