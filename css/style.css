@@ -31,16 +31,22 @@ body {
 }
 
 .btn {
+<<<<<<< HEAD
   color: #fff;
     background-color: #ab2328;
     border-color: #ab2328;
+=======
+  color: #33393c;
+    background-color: #8A0707;
+    border-color: #8A0707;
+>>>>>>> parent of 3f6fafb... .
     font-size: 20px;
 }
 
 
-.btn:hover,
-.btn:active,
-.btn:focus {
+.btn-success:hover,
+.btn-success:active,
+.btn-success:focus {
     color: #ffcb05;
     background-color: #007055;
     border-color: #007055;
