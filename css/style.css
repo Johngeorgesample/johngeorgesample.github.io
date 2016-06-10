@@ -18,10 +18,6 @@ body {
 	font-size: 40px;
 }
 
-.smallerText {
-  font-size: 10px !important;
-}
-
 #container {
     height: 100%;
     display: flex;
