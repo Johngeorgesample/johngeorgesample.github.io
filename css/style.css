@@ -9,8 +9,12 @@ body {
 	text-align: center;
 	font-size: 100px;
   text-decoration: none;
+}
+
+.creepster {
   font-family: 'Creepster', cursive;
 }
+
 
 .subtext {
 	color: #fff;
