@@ -37,7 +37,7 @@ body {
 .btn:hover,
 .btn:active,
 .btn:focus {
-    color: #ffcb05;
-    background-color: #007055;
-    border-color: #007055;
+    color: #fff;
+    background-color: #C2341E;
+    border-color: #C2341E;
 }
