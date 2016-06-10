@@ -71,7 +71,7 @@ body {
 .btn-git:hover,
 .btn-git:active,
 .btn-git:focus {
-    color: #ab2328 !important;
+    color: #fff !important;
     background-color: #999;
     border-color: #999;
 }
