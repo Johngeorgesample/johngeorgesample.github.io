@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/sticky-footer.css">
   <link rel="stylesheet" href="css/scrolling-nav.css">
   <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
@@ -28,10 +29,10 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-	<div id=container class= "parallax-window jumbo" data-parallax="scroll">
-		<p class="centertitle hvr-grow-rotate">Stabby.js</p>
+	<div id=container class="parallax-window jumbo" data-parallax="scroll">
+		<p class="centertitle hvr-grow-rotate">stabby.js</p>
 		<p class=subtext><span id="stabText" onmouseover="changeText();">A JS framework for</span> the edgy developer</p>
-    <a href="test.txt" download><button type="button" class="btn"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i> Download Stabby.js
+    <a href="test.txt" download><button type="button" class="btn"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i> Download stabby.js
       <br>
       <span class="icon-stabbyjustlogo_icon glyph"></span>
       <br>
@@ -40,10 +41,13 @@
     </a>
     <br>
      <a href="https://github.com/Johngeorgesample/Stabby.js"<button type="button" class="btn-git"><i class="fa fa-github" aria-hidden="true"></i> View on Github</a>
+
+     <br><br><br>
+      <a data-scroll href="#ass"><i class="fa fa-3x fa-chevron-down animated fadeInUp" aria-hidden="true"></i></a>
   </div>
 
   <br>
-  <div class="container">
+  <div class="container" id="ass">
     <div class="col-md-4">
       <h2>Why stabby.js?</h2>
         <p class="lead">
@@ -138,9 +142,24 @@
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script src="js/stabby.js"></script>
+  <script src="js/smooth-scroll.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/parallax.js"></script>
   <script src="js/scrolling-nav.js"></script>
+
+  <script>
+      smoothScroll.init({
+        selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
+        selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
+        speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+        easing: 'easeInOutCubic', // Easing pattern to use
+        offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
+        updateURL: true, // Boolean. If true, update the URL hash on scroll
+        callback: function ( anchor, toggle ) {} // Function to run after scrolling
+      });
+  </script>
+
+  
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
