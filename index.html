@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="css/sticky-footer.css">
+  <link rel="stylesheet" href="css/scrolling-nav.css">
   <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="fonts/icomoon/icons.css">
 
@@ -24,8 +26,9 @@
   <![endif]-->
 </head>
 
-<body>
-	<div id=container class= "parallax-window" data-parallax="scroll">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+	<div id=container class= "parallax-window jumbo" data-parallax="scroll">
 		<p class="centertitle hvr-grow-rotate">Stabby.js</p>
 		<p class=subtext><span id="stabText" onmouseover="changeText();">A JS framework for</span> the edgy developer</p>
     <a href="test.txt" download><button type="button" class="btn"><i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i> Download Stabby.js
@@ -40,12 +43,104 @@
   </div>
 
   <br>
+  <div class="container">
+    <div class="col-md-4">
+      <h2>Why stabby.js?</h2>
+        <p class="lead">
+          Lorem ipsum Non exercitation enim sed elit commodo elit quis laborum dolor dolore dolore commodo in reprehenderit laborum esse labore aute minim ad nisi adipisicing veniam ad exercitation ex ad consectetur id fugiat dolor culpa proident qui dolore culpa Ut voluptate amet.
+        </p>
+    </div>
+
+    <div class="col-md-4">
+      <h2>SUX</h2>
+        <p class="lead">
+          Lorem ipsum Non exercitation enim sed elit commodo elit quis laborum dolor dolore dolore commodo in reprehenderit laborum esse labore aute minim ad nisi adipisicing veniam ad exercitation ex ad consectetur id fugiat dolor culpa proident qui dolore culpa Ut voluptate amet.
+        </p>
+    </div>
+
+    <div class="col-md-4">
+      <h2>Development</h2>
+        <p class="lead">
+          Lorem ipsum Non exercitation enim sed elit commodo elit quis laborum dolor dolore dolore commodo in reprehenderit laborum esse labore aute minim ad nisi adipisicing veniam ad exercitation ex ad consectetur id fugiat dolor culpa proident qui dolore culpa Ut voluptate amet.
+        </p>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="col-md-12">
+      <h3>Meet the team</h3>
+      <br>
+
+        <div class="col-md-4">
+          <div class="teamCircle">
+            <img src="img/place.png">
+              <p class="lead memberName">Chase Wickerham</p>
+                <p class="subInfo">Designer</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="teamCircle">
+            <img src="img/place.png">
+              <p class="lead memberName">John-George Sample</p>
+                <p class="subInfo">Founder, lead developer</p>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="teamCircle">
+            <img src="img/place.png">
+              <p class="lead memberName">Ryan Caldwell</p>
+                <p class="subInfo">Developer</p>
+          </div>
+        </div>
+ 
+
+    <div class="col-md-2">
+    </div>
+
+    <div class="col-md-4">
+      <div class="teamCircle">
+        <img src="img/place.png">
+          <p class="lead memberName">Andrew Vilsack</p>
+                <p class="subInfo">Useless</p>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="teamCircle">
+        <img src="img/place.png">
+          <p class="lead memberName">Darcy White</p>
+                <p class="subInfo">Project Manager</p>
+      </div>
+  </div>
+
+  <br>
+  <div class="container">
+    <div class="col-md-12">
+      <p class="lead">
+        Lorem ipsum Est pariatur commodo consequat id aliqua ut incididunt quis qui in in officia non amet elit consectetur est nulla exercitation incididunt qui Duis cillum aliquip officia mollit labore sed velit Duis non ut ea in proident do cupidatat reprehenderit dolor et sunt magna eu cillum deserunt elit sint elit tempor minim laboris labore ullamco mollit elit ad non labore proident amet culpa quis commodo eiusmod dolore velit labore laboris irure velit tempor magna in consectetur est dolore labore in dolor eu deserunt in non laboris reprehenderit id aliquip exercitation esse culpa ut do est veniam commodo do exercitation.
+      </p>
+    </div>
+  </div>
+
+<br><br>
+
+
+  
+  <footer class="footer">
+      <div class="container">
+      <p></p>
+        <p class="text-muted footerText">&copy; 2016 SRU Web Comm</p>
+      </div>
+    </footer>
+  
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script src="js/stabby.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/parallax.js"></script>
-
+  <script src="js/scrolling-nav.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
