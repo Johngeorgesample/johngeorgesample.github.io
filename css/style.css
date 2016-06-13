@@ -85,7 +85,7 @@
     text-align: center;
     font-size: 16px;
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 0.4;
 }
 
 .footerText {
@@ -101,7 +101,13 @@
 }
 
 
+.fa-chevron-down:hover {
+    color: #969696;
+}
 
+img {
+    padding-bottom: 10px;
+}
 
 
 
