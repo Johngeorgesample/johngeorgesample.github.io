@@ -94,6 +94,7 @@ img {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .memberPhoto {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -117,6 +118,11 @@ img {
 
 
 
+=======
+.biop {
+    margin-top: 40px; 
+}
+>>>>>>> origin/master
 =======
 .biop {
     margin-top: 40px; 
