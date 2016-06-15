@@ -42,19 +42,36 @@
 }
 
 
-.git {
+.btn-git {
     color: #fff;
     background-color: #999;
     border-color: #999;
     font-size: 25px !important;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+      touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
-.git:hover,
-.git:active,
-.git:focus {
-    color: #fff !important;
+.btn-git:hover,
+.btn-git:active,
+.btn-git:focus {
+    color: #fff;
     background-color: #bebebe;
     border-color: #bebebe;
 }
@@ -81,7 +98,6 @@
 
 .fa-chevron-down {
     color: #bebebe;
-    margin top: 60px;
 }
 
 
@@ -93,8 +109,6 @@ img {
     padding-bottom: 10px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 .memberPhoto {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
@@ -118,13 +132,3 @@ img {
 
 
 
-=======
-.biop {
-    margin-top: 40px; 
-}
->>>>>>> origin/master
-=======
-.biop {
-    margin-top: 40px; 
-}
->>>>>>> origin/master
