@@ -96,3 +96,24 @@ img {
 .biop {
     margin-top: 40px; 
 }
+
+
+.memberPhoto {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    display: block;
+    margin: 0 auto;
+    height: 250px !important;
+    width: 250px !important;
+}
+
+.memberPhoto:hover {
+    opacity: .5;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    display: block;
+    margin: 0 auto;
+    height: 250px !important;
+    width: 250px !important;
+}
