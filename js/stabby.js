@@ -26,3 +26,7 @@ function changeText() {
 	var id = document.getElementById("stabText");
 	id.innerHTML=stabReplace;
 }
+
+function hingeClick () {
+	$('#andyIcon').addClass('animated hinge');
+}
